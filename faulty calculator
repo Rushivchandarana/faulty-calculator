@@ -1,0 +1,28 @@
+print("Select the operator from the following")
+print("+ for addition")
+print("* for multiplication")
+print("/ for division")
+print("- for subtraction")
+
+N=input("Enter the operator\n")
+N1=int(input("enter the first number:\n"))
+N2=int(input("enter the second number:\n"))
+
+if N1==45 and N2==3 and N=="*":
+    print("555")
+elif N1==56 and N2==9 and N=="+":
+    print("77")
+elif N1==56 and N2==6 and N=="/":
+    print("4")
+elif N=="*":
+    N3=N1*N2
+    print(N3)
+elif N=="+":
+    N3=N1+N2
+    print(N3)
+elif N=="/":
+    N3=N1/N2
+    print(N3)
+elif N=="-":
+    N3=N1-N2
+    print(N3)
